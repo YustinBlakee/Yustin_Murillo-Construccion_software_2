@@ -1,4 +1,4 @@
-package com.nexusmarket.buyermanagement;
+package com.NexusMarket.buyermanagement;
 
 import java.util.ArrayList;
 import java.util.List;

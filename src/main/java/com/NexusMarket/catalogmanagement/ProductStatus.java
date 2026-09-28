@@ -1,4 +1,4 @@
-package com.nexusmarket.catalogmanagement;
+package com.NexusMarket.catalogmanagement;
 
 public enum ProductStatus {
 

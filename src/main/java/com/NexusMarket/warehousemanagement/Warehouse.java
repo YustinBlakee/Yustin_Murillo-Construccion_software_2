@@ -1,4 +1,4 @@
-package main.java.com.NexusMarket.warehousemanagement;
+package com.NexusMarket.warehousemanagement;
 
 public class Warehouse {
 

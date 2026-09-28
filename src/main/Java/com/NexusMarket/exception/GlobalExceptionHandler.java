@@ -23,7 +23,22 @@ public class GlobalExceptionHandler {
         return createProblem(HttpStatus.CONFLICT, "Resource conflict", exception.getMessage());
     }
 
-    @ExceptionHandler({BadRequestException.class, IllegalArgumentException.class})
+    @ExceptionHandler(InventoryUnavailableException.class)
+    public ResponseEntity<ProblemDetail> handleInventoryUnavailable(InventoryUnavailableException exception) {
+        return createProblem(HttpStatus.CONFLICT, "Inventory unavailable", exception.getMessage());
+    }
+
+    @ExceptionHandler(InvalidOrderStateException.class)
+    public ResponseEntity<ProblemDetail> handleInvalidOrderState(InvalidOrderStateException exception) {
+        return createProblem(HttpStatus.CONFLICT, "Invalid order state", exception.getMessage());
+    }
+
+    @ExceptionHandler(UnauthorizedOperationException.class)
+    public ResponseEntity<ProblemDetail> handleUnauthorized(UnauthorizedOperationException exception) {
+        return createProblem(HttpStatus.FORBIDDEN, "Unauthorized operation", exception.getMessage());
+    }
+
+    @ExceptionHandler({BusinessRuleException.class, BadRequestException.class, IllegalArgumentException.class})
     public ResponseEntity<ProblemDetail> handleBadRequest(RuntimeException exception) {
         return createProblem(HttpStatus.BAD_REQUEST, "Invalid request", exception.getMessage());
     }

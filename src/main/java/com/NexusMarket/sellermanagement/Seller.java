@@ -1,4 +1,4 @@
-package main.java.com.NexusMarket.sellermanagement;
+package com.NexusMarket.sellermanagement;
 
 public class Seller {
 

@@ -1,4 +1,4 @@
-package com.nexusmarket.warehousemanagement;
+package com.NexusMarket.warehousemanagement;
 
 public enum WarehouseType {
 

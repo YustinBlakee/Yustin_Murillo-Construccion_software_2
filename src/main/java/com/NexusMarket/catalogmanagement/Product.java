@@ -1,4 +1,4 @@
-package com.nexusmarket.catalogmanagement;
+package com.NexusMarket.catalogmanagement;
 
 import java.util.ArrayList;
 import java.util.List;

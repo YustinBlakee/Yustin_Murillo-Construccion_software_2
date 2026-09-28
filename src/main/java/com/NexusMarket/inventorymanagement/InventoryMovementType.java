@@ -1,4 +1,4 @@
-package main.java.com.NexusMarket.inventorymanagement;
+package com.NexusMarket.inventorymanagement;
 
 public enum InventoryMovementType {
 

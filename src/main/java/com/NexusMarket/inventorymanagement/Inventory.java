@@ -1,4 +1,4 @@
-package com.nexusmarket.inventorymanagement;
+package com.NexusMarket.inventorymanagement;
 
 public class Inventory {
 

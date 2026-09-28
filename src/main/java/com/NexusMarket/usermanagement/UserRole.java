@@ -1,4 +1,4 @@
-package main.java.com.NexusMarket.usermanagement;
+package com.NexusMarket.usermanagement;
 
 public enum UserRole {
 

@@ -1,4 +1,4 @@
-package main.java.com.NexusMarket.ordermanagement;
+package com.NexusMarket.ordermanagement;
 
 public enum OrderStatus {
 
